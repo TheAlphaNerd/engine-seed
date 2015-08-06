@@ -1,5 +1,3 @@
-'use strict';
-
 // Famous dependencies
 var DOMElement = require('famous/dom-renderables/DOMElement');
 var FamousEngine = require('famous/core/FamousEngine');
@@ -29,6 +27,7 @@ logo
 // Add a spinner component to the logo 'node' that is called, every frame
 var spinner = logo.addComponent({
     onUpdate: function(time) {
+        'use strict';
         logo.setRotation(0, time / 1000, 0);
         logo.requestUpdateOnNextTick(spinner);
     }

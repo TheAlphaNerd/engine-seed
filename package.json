@@ -26,8 +26,8 @@
   "devDependencies": {
     "browserify": "^11.0.0",
     "ecstatic": "^0.8.0",
-    "eslint": "^0.24.1",
-    "jscs": "^1.7.3",
+    "eslint": "^1.0.0",
+    "jscs": "^2.0.0",
     "npm-run-all": "^1.2.6",
     "uglify-js": "^2.4.15",
     "uglifyify": "^3.0.1",
@@ -37,6 +37,6 @@
   "license": "MIT",
   "dependencies": {
     "babelify": "^6.0.1",
-    "famous": "^0.6.1"
+    "famous": "^0.7.1"
   }
 }
